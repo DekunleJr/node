@@ -171,10 +171,12 @@ form {
 }
 
 .card__image {
+  height: 300px;
   width: 100%;
 }
 
 .card__image img {
+  height: 80%;
   width: 100%;
 }
 
