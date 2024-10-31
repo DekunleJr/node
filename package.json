@@ -21,6 +21,7 @@
     "express": "^4.19.2",
     "express-handlebars": "^8.0.1",
     "express-session": "^1.18.1",
+    "express-validator": "^7.2.0",
     "fill-range": "^7.1.1",
     "glob-parent": "^5.1.2",
     "has-flag": "^3.0.0",
