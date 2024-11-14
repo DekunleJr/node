@@ -173,8 +173,8 @@ exports.getCheckout = (req, res, next) => {
                 };
             }),
             mode: 'payment',
-            success_url: 'http://localhost:5000/checkout/success',
-            cancel_url: 'http://localhost:5000/checkout/cancel'
+            success_url: 'https://dekunle-market.onrender.com/checkout/success',
+            cancel_url: 'https://dekunle-market.onrender.com/checkout/cancel'
         });
       })
       .then(session => {
