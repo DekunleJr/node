@@ -61,6 +61,7 @@ exports.postAddProduct = async (req, res, next) => {
         await product.save();
         res.redirect('/admin/products');
     } catch (err) {
+        console.log(err)
         next(new Error(err));
     }
 };
